@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<grid>
+<config>
+ <header tableName="" primaryKey="" remoteFile="">
+  <column type="1" name="title" width="130" title="Title"/>
+  <column type="2" name="artist" width="100" title="Artist"/>
+  <column type="1" name="country" width="100" title="Country"/>
+  <column type="6" name="company" width="100" title="CompanyStatus"></column>
+  <column type="5" name="price" width="60" title="Price"></column>
+  <column type="1" name="year" width="60" title="Year"></column>
+ </header>
+ <combo>
+  <select name="artist" column="2">
+  <option value="1">Bob Dylan</option>
+  <option value="2">Bonnie Tyle</option>
+  <option value="3">Dolly Parton</option>
+  <option value="4">Gary Moore</option>
+  <option value="5">Eros Ramazzotti</option>
+  </select>
+ </combo>
+</config>
+<record>
+ <row index="1" id="">
+  <title>Empire Burlesque</title> 
+  <artist>1</artist> 
+  <country>USA</country> 
+  <company>1</company> 
+  <price>10.90</price> 
+  <year>1985</year> 
+ </row>
+ <row index="2" id="">
+  <title>Hide your heart</title> 
+  <artist>2</artist> 
+  <country>UK</country> 
+  <company>1</company>
+  <price>9.90</price> 
+  <year>1988</year> 
+ </row>
+ <row index="3" id="">
+  <title>Greatest Hits</title> 
+  <artist>3</artist> 
+  <country>USA</country> 
+  <company>0</company>
+  <price>9.90</price> 
+  <year>1982</year> 
+ </row>
+ <row index="4" id="">
+  <title>Still got the blues</title> 
+  <artist>4</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>10.20</price> 
+  <year>1990</year> 
+ </row>
+ <row index="5" id="">
+  <title>Eros</title> 
+  <artist>5</artist> 
+  <country>EU</country> 
+  <company>0</company>
+  <price>9.90</price> 
+  <year>1997</year> 
+ </row>
+ <row index="6" id="">
+  <title>One night only</title> 
+  <artist>Bee Gees</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>10.90</price> 
+  <year>1998</year> 
+ </row>
+ <row index="7" id="">
+  <title>Sylvias Mother</title> 
+  <artist>Dr.Hook</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>8.10</price> 
+  <year>1973</year> 
+ </row>
+ <row index="8" id="">
+  <title>Maggie May</title> 
+  <artist>Rod Stewart</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>8.50</price> 
+  <year>1990</year> 
+ </row>
+ <row index="9" id="">
+  <title>Romanza</title> 
+  <artist>Andrea Bocelli</artist> 
+  <country>EU</country> 
+  <company>0</company>
+  <price>10.80</price> 
+  <year>1996</year> 
+ </row>
+ <row index="10" id="">
+  <title>When a man loves a woman</title> 
+  <artist>Percy Sledge</artist> 
+  <country>USA</country> 
+  <company>0</company>
+  <price>8.70</price> 
+  <year>1987</year> 
+ </row>
+ <row index="11" id="">
+  <title>Black angel</title> 
+  <artist>Savage Rose</artist> 
+  <country>EU</country> 
+  <company>0</company>
+  <price>10.90</price> 
+  <year>1995</year> 
+ </row>
+ <row index="12" id="">
+  <title>1999 Grammy Nominees</title> 
+  <artist>Many</artist> 
+  <country>USA</country> 
+  <company>0</company>
+  <price>10.20</price> 
+  <year>1999</year> 
+ </row>
+ <row index="13" id="">
+  <title>For the good times</title> 
+  <artist>Kenny Rogers</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>8.70</price> 
+  <year>1995</year> 
+ </row>
+ <row index="14" id="">
+  <title>Big Willie style</title> 
+  <artist>Will Smith</artist> 
+  <country>USA</country> 
+  <company>0</company>
+  <price>9.90</price> 
+  <year>1997</year> 
+ </row>
+ <row index="15" id="">
+  <title>Tupelo Honey</title> 
+  <artist>Van Morrison</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>8.20</price> 
+  <year>1971</year> 
+ </row>
+ <row index="16" id="">
+  <title>Soulsville</title> 
+  <artist>Jorn Hoel</artist> 
+  <country>Norway</country> 
+  <company>0</company>
+  <price>7.90</price> 
+  <year>1996</year> 
+ </row>
+ <row index="17" id="">
+  <title>The very best of</title> 
+  <artist>Cat Stevens</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>8.90</price> 
+  <year>1990</year> 
+ </row>
+ <row index="18" id="">
+  <title>Stop</title> 
+  <artist>Sam Brown</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>8.90</price> 
+  <year>1988</year> 
+ </row>
+ <row index="19" id="">
+  <title>Bridge of Spies</title> 
+  <artist>T'Pau</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>7.90</price> 
+  <year>1987</year> 
+ </row>
+ <row index="20" id="">
+  <title>Private Dancer</title> 
+  <artist>Tina Turner</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>8.90</price> 
+  <year>1983</year> 
+ </row>
+ <row index="21" id="">
+  <title>Midt om natten</title> 
+  <artist>Kim Larsen</artist> 
+  <country>EU</country> 
+  <company>0</company>
+  <price>7.80</price> 
+  <year>1983</year> 
+ </row>
+ <row index="22" id="">
+  <title>Pavarotti Gala Concert</title> 
+  <artist>Luciano Pavarotti</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>9.90</price> 
+  <year>1991</year> 
+ </row>
+ <row index="23" id="">
+  <title>The dock of the bay</title> 
+  <artist>Otis Redding</artist> 
+  <country>USA</country> 
+  <company>0</company>
+  <price>7.90</price> 
+  <year>1987</year> 
+ </row>
+ <row index="24" id="">
+  <title>Picture book</title> 
+  <artist>Simply Red</artist> 
+  <country>EU</country> 
+  <company>0</company>
+  <price>7.20</price> 
+  <year>1985</year> 
+ </row>
+ <row index="25" id="">
+  <title>Red</title> 
+  <artist>The Communards</artist> 
+  <country>UK</country> 
+  <company>0</company>
+  <price>7.80</price> 
+  <year>1987</year> 
+ </row>
+ <row index="26" id="">
+  <title>Unchain my heart</title> 
+  <artist>Joe Cocker</artist> 
+  <country>USA</country> 
+  <company>0</company>
+  <price>8.20</price> 
+  <year>1987</year> 
+ </row>
+</record>
+</grid>

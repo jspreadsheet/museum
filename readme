@@ -1,0 +1,84 @@
+------------------------------------------------------------
+	HerculesGrid 1.0 ( 2007-01-11 )
+------------------------------------------------------------
+
+Official Distribution: http://www.hercules-cms.com/
+
+Author: Paul Hodel <paul.hodel@hercules-cms.com>
+
+
+HerculesGrid is a fully functional grid for your web system. It can be used free,
+and we offer full free support by e-mail <support@hercules-cms.com>
+
+- No javascript or programming knowledge require
+- Easy to use and install
+- Online update
+- Smart loading
+- XML only
+- Free!
+- Free support
+- Free update
+
+
+------------------------------------------------------------
+	Supported Browsers
+------------------------------------------------------------
+
+Mozilla Firefox, Internet Explorer
+
+
+------------------------------------------------------------
+	Structure Files
+------------------------------------------------------------
+
+
+common/
+common/grid.css							// Grid style
+common/grid.xsl							// Grig XSL transform
+images/
+images/blank.gif						// Blank file
+images/down.gif							// Order (down)
+images/up.gif							// Order (up)
+js/
+js/common.js							// Common file have all common functions used in the grid components and to configure the grid
+js/grid.js							// Grid functions
+js/calendar.js							// Component calendar
+js/colorpicker.js						// Component color picker
+js/input.js							// Component input
+js/select.js							// Component selecbox
+js/text.js							// Component textarea
+readme								// Readme File
+grid.html							// Edit this file and XML address to mount the grid
+index.html							// index.html
+config.inc.php							
+update.inc.php
+xml.inc.php
+
+
+
+
+------------------------------------------------------------
+	History
+------------------------------------------------------------
+
+1.0.1
+
+	11/01/2007 - Release!
+	16/01/2007 - Insert correction (all fields need to be sent)
+
+
+2.0.0
+
+	23/01/2007 - Change all functions into a herculesGrid class allowing more then one grid per page
+	24/01/2007 - Change the iframe to a div
+
+
+2.0.1
+
+	24/01/2007 - Correcting the header problem
+
+
+2.1.0
+
+	25/01/2007 - Header correction divs floating left
+	25/01/2007 - Update correction

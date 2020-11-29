@@ -1,0 +1,148 @@
+/*
+
+   HERCULES GRID <www.hercules-cms.org>
+
+    Copyright (C) 2007  PAUL PIERRE HODEL <paul.hodel@hercules-cms.org; paul_hodel@hotmail.com>
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    You should have received a copy of the GNU Library General Public
+    License along with this library; if not, write to the Free
+    Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+*/
+
+#area
+{
+	position:absolute;
+	cursor:w-resize;
+	background-color:transparent;
+	left:0px;
+	width:0px;
+	height:0px;
+	border:0px;
+}
+.herculesGrid
+{
+	border:1px solid #000000;
+	overflow:auto;
+	width:600px;
+	height:160px;
+	background-color:#ffffff;
+}
+.gridCustos
+{
+	border:1px solid #aca899;
+	overflow:auto;
+	width:600px;
+	height:100px;
+	background-color:#ffffff;
+}
+.gridVeiculo
+{
+	border:1px solid aca899;
+	overflow:auto;
+	width:600px;
+	height:100px;
+	background-color:#ffffff;
+}
+.gridFinanceiro
+{
+	border:1px solid #aca899;
+	overflow:auto;
+	width:800px;
+	height:200px;
+	background-color:#ffffff;
+}
+
+.herculesTable
+{
+	table-layout:fixed;
+	border-left:1px solid #f1efe2;
+	width:100%;
+}
+.herculesTable td
+{
+	font:9px Verdana;
+}
+.herculesColumn td
+{
+	border:1px solid transparent;
+	border-bottom:1px solid #f1efe2;
+	border-right:1px solid #f1efe2;
+	cursor:pointer;
+	height:19px;
+	overflow:hidden;
+}
+.herculesHeader
+{
+	background-color:#ebeadb;
+	border-right:1px solid #aca899;
+	border-left:1px solid #ffffff;
+	border-bottom:1px solid #cbc7b8;
+}
+.header
+{
+	border-bottom:1px solid #e2decd;
+	white-space: nowrap;
+	cursor:pointer;
+	overflow:hidden;
+	height:24px;
+}
+.header div
+{
+	float:left;
+}
+.herculesTitle
+{
+	padding:6px;	
+	overflow:hidden;
+}
+.herculesResize
+{
+	border:0px;
+	cursor:w-resize;
+	width:2px;
+	height:18px;
+}
+.herculesOrder
+{
+	width:9px;
+	height:5px;
+	position:relative;
+	top:10px;
+}
+.herculesInput
+{
+	border:0px solid;
+	margin:0px;
+	padding:0px;
+	height:16px;
+	font:9px verdana;
+	background-color:transparent;
+	width:100%;
+}
+
+
+.index
+{
+	background-color:#ebeadb;
+	border-bottom:1px solid #e2decd;
+	border-top:1px solid #f2f1e2;
+	padding:2px;
+	border-right:1px solid #e2decd;
+	text-align:center;
+}
+.column
+{
+	white-space: nowrap;
+	width:100%;
+}
